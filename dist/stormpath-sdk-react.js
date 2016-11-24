@@ -4195,7 +4195,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }, {
 	    key: 'set',
-	    value: function set(type, token, ttl) {
+	    value: function set(type, token) {
 	      if (this.get(type) !== token) {
 	        this._manageTokenExpiration(type, token);
 
